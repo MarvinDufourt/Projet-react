@@ -1,0 +1,35 @@
+.my-nav .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.my-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+.my-nav li {
+    float: left;
+}
+
+.my-nav li a {
+    display: block;
+    color: rgb(250, 246, 246);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.my-nav li a:hover {
+    background-color: #111;
+}
+
+.my-nav .active {
+    background-color: #4CAF50;
+}
